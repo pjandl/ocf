@@ -1,7 +1,7 @@
 # Oficina de Computação Física
 ### Prof. Peter Jandl Jr.
 
-<img src='https://github.com/pjandl/ofc/blob/master/repo-cover-ocf.png?raw=true' alt='![Oficina Computação Física]' />
+<img src='https://github.com/pjandl/ocf/blob/master/repo-cover-ocf.png?raw=true' alt='![Oficina Computação Física]' />
 
 Esta é uma oficina experimental de *computação física*:
 
@@ -17,7 +17,7 @@ A parte da eletrônica requer o uso de alguma placa de desenvolvimento, tais com
 * Banana Py
 * STM 32 (blue pill, black pill)
 
-Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ofc/blob/master/lista-componentes.md).
+Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ocf/blob/master/lista-componentes.md).
 
 A parte da computação utilizará duas das mais conhecidas e flexíveis linguagens de programação: **C** e **Python**. Além das linguagens serão utilizados ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como Thonny e Arduino IDE.
 
