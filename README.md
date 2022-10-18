@@ -1,7 +1,8 @@
 # Oficina de Computação Física
 ### Prof. Peter Jandl Jr.
 
-<img src='https://github.com/pjandl/ocf/blob/master/repo-cover-ocf.png?raw=true' alt='![Oficina Computação Física]' />
+<img src='https://github.com/pjandl/ocf/blob/main/repo-cover-ocf.png?raw=true' alt='![Oficina Computação Física]' />
+
 
 Esta é uma oficina experimental de *computação física*:
 
