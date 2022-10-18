@@ -1,6 +1,6 @@
-# OFC::00 Hello World
+# OFC::02 LED onboard
 
-Um programa clássico executado diretamente pelo interpretador instalado na placa de desenvolvimento.
+Um programa que efetua o acionamento do led existente na própria placa de desenvolvimento.
 
 ## Lista de Materiais
 
@@ -9,7 +9,7 @@ Um programa clássico executado diretamente pelo interpretador instalado na plac
 
 ## Roteiro
 
-Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, pois será utilizado apenas o interpretador previamente instalado na placa de desenvolvimento e o console do IDE Thonny.
+Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, pois será utilizado o LED montado na própria placa (*on board*).
 
 1. Conecte a placa NodeMCU à porta USB de seu computador.
 2. Abra o Thonny.
@@ -20,24 +20,27 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, 
 		# Oficina de Computação Física
 		# Prof. Peter Jandl Jr
 		#
-		# 00_Hello_World.py
-		# Um clássico executado na placa de desenvolvimento!
+		# 02_led_onboard.py
+		# Acionamento do led existente na placa.
 		#
-		import sys
+		from machine import Pin
+		from time import sleep
+		
+		led_onboard = Pin(16, Pin.OUT)
+		
+		while True:
+		 led_onboard.value(1)
+		 sleep(0.5)
+		 led_onboard.value(0)
+		 sleep(2)
+		  
 
-		message = 'Hello World, from micro Python'
-
-		print(message)
-    
-		print(sys.implementation.name, 'on', sys.implementation._machine)
-
-
-5. Salve como "00_Hello_World.py".
+5. Salve como "02_led_onboard.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
 Sugestões:
-* Modifique a mensagem e execute novamente.
-* Imprima várias mensagens diferentes.
+* Modifique a temporização do led.
+* Imprima mensagens que indiquem o ponto de execução do programa.
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
 2022-2

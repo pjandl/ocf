@@ -1,6 +1,6 @@
-# OFC::00 Hello World
+# OFC::01 Olá
 
-Um programa clássico executado diretamente pelo interpretador instalado na placa de desenvolvimento.
+Programa que realiza operações de entrada e saida de string no console (da placa), sendo executado diretamente pelo interpretador instalado na placa de desenvolvimento.
 
 ## Lista de Materiais
 
@@ -20,24 +20,20 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, 
 		# Oficina de Computação Física
 		# Prof. Peter Jandl Jr
 		#
-		# 00_Hello_World.py
-		# Um clássico executado na placa de desenvolvimento!
+		# 01_Ola.py
+		# Entrada e saida de string no console (da placa).
 		#
-		import sys
+		nome = input('Qual é o seu nome? ')
+		print ('Olá', nome)
+		
 
-		message = 'Hello World, from micro Python'
-
-		print(message)
-    
-		print(sys.implementation.name, 'on', sys.implementation._machine)
-
-
-5. Salve como "00_Hello_World.py".
+5. Salve como "01_Ola.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
 Sugestões:
-* Modifique a mensagem e execute novamente.
-* Imprima várias mensagens diferentes.
+* Realize a entrada de valores diferentes, em variáveis distintas.
+* Converta a entrada de texto para inteiro com uso de *int()* ou real com *float()*.
+* Imprima tais valores.
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
 2022-2
