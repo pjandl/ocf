@@ -1,6 +1,6 @@
 # OFC::04 Botão e LED
 
-Um programa monitora o estado de um botão e cujo acionamento liga o led montado externamente à placa de desenvolvimento. O led permanece aceso enquanto o botão é acionado/pressionado. Mostra o uso de porta GPIO (*General Purpose Input Output*) como entrada digital ou como uma saída digital.
+Um programa monitora o estado de um botão (*chave táctil*), de modo que seu acionamento liga o led montado externamente à placa de desenvolvimento. O led permanece aceso enquanto o botão é acionado/pressionado. Mostra o uso de porta GPIO (*General Purpose Input Output*) como entrada digital ou como uma saída digital.
 
 ## Lista de Materiais
 
@@ -9,14 +9,16 @@ Um programa monitora o estado de um botão e cujo acionamento liga o led montado
 * 01 Led (qualquer cor)
 * 01 Chave táctil
 * 01 Resistor 220 ou 330 ohms
-* 01 Resistor 1K ohms
+* 01 Resistor 10K ohms
 * Jumpers
 
 ## Roteiro
 
 Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao computador, como na figura que segue.
 
-Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será conectado ao ânodo do led (terminal positivo, mais longo). O cátodo do led (terminal negativo, mais curto) será conectado ao resistor (não tem polaridade), de maneira que fiquem em série. O outro terminal do resistor deve ser ligado ao pino físico 17 GND (*ground*) do NodeMCU, que é o terra do circuito.  
+Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será conectado ao ânodo do led (terminal positivo, mais longo). O cátodo do led (terminal negativo, mais curto) será conectado ao resistor (não tem polaridade), de maneira que fiquem em série. O outro terminal do resistor deve ser ligado ao pino físico 17 GND (*ground*) do NodeMCU, que é o terra do circuito.
+
+O pino físico 22 (D6) do NodeMCU, que corresponde a GPIO12, será conectada à chave tactil, do mesmo lado que o resistor de 10K, o qual é conectado ao terra (pino físico 17 GND). O outro lado da chave táctil deve ser ligado ao pino físico 16 3V (alimentação de 3.3 Volts fornecida pela placa). Esta configuração de ligação do resistor na chave táctil é conhecida como *pull down*, pois quando a chave não estiver acionada, fornecerá um valor 0 (zero lógico ou *False*); quando acionada fornecerá o valor da alimentação (um lógico ou *True*).
 
 1. Efetue a montagem indicada. Confira todas as conexões.
 2. Conecte a placa NodeMCU à porta USB de seu computador.
@@ -28,27 +30,31 @@ Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será c
 		# Oficina de Computação Física
 		# Prof. Peter Jandl Jr
 		#
-		# 03_led_externo.py
-		# Acionamento do led existente na placa.
+		# 04_botao_led.py
+		# Um botão para acionamento do led externo.
 		#
 		from machine import Pin
 		from time import sleep
 		
 		led = Pin(15, Pin.OUT)
-		
-		while True:
-		 led.value(1)
-		 sleep(0.5)
-		 led.value(0)
-		 sleep(2.0)
+		botao = Pin(12, Pin.IN)
+
+		try:
+		    while True:
+		        led.value(botao.value())
+		        sleep(0.1)
+		except KeyboardInterrupt:
+		    led.value(0)
+		    print('Programa finalizado')
 		  
 
-5. Salve como "03_led_externo.py".
+5. Salve como "04_botao_led.py".
 6. Para executar acione o botão *Executar* ou **F5**.
+7. Acione o botão e verifique o acendimento do led.
 
 Sugestões:
-* Modifique a temporização do led.
-* Imprima mensagens que indiquem o ponto de execução do programa.
+* Modifique a temporização do laço e verique o comportamento do circuito.
+* inclua um *if/else* de maneira que possam ser impressas mensagens quando o led é aceso ou apagado.
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
 2022-2
