@@ -10,6 +10,7 @@
 * 01 Sensor DHT11
 * 01 Módulo BMP180 ou BMP280
 * 01 Termistor NTC 10KΩ
+* 01 Fotoresistor (LDR) 5mm
 * 01 LDR 5mm
 * 04 LED vermelho 5mm
 * 04 LED amarelo 5mm
