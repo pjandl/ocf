@@ -9,7 +9,7 @@ Programa que realiza operações de entrada e saida de string no console (da pla
 
 ## Roteiro
 
-Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, pois será utilizado apenas o interpretador previamente instalado na placa de desenvolvimento e o console do IDE Thonny.
+Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU ao computador, pois será utilizado apenas o interpretador previamente instalado na placa de desenvolvimento e o console do IDE Thonny.
 
 1. Conecte a placa NodeMCU à porta USB de seu computador.
 2. Abra o Thonny.

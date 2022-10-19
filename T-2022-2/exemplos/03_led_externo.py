@@ -8,11 +8,11 @@
 from machine import Pin
 from time import sleep
 
-led_onboard = Pin(15, Pin.OUT)
+led = Pin(15, Pin.OUT)
 
 while True:
- led_onboard.value(1)
+ led.value(1)
  sleep(0.5)
- led_onboard.value(0)
+ led.value(0)
  sleep(2.0)
  

@@ -32,10 +32,10 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 		led_onboard = Pin(2, Pin.OUT)
 		
 		while True:
-		 led_onboard.value(0)
-		 sleep(0.5)
-		 led_onboard.value(1)
-		 sleep(2.0)
+			led_onboard.value(0)
+			sleep(0.5)
+			led_onboard.value(1)
+			sleep(2.0)
 		  
 
 5. Salve como "02_led_onboard.py".

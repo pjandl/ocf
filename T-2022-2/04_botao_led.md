@@ -1,13 +1,15 @@
-# OFC::03 LED externo
+# OFC::04 Botão e LED
 
-Um programa que efetua o acionamento de um led montado externamente à placa de desenvolvimento. Mostra o uso de uma porta GPIO (*General Purpose Input Output*) como uma saída digital.
+Um programa monitora o estado de um botão e cujo acionamento liga o led montado externamente à placa de desenvolvimento. O led permanece aceso enquanto o botão é acionado/pressionado. Mostra o uso de porta GPIO (*General Purpose Input Output*) como entrada digital ou como uma saída digital.
 
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
 * 01 Led (qualquer cor)
+* 01 Chave táctil
 * 01 Resistor 220 ou 330 ohms
+* 01 Resistor 1K ohms
 * Jumpers
 
 ## Roteiro
@@ -35,10 +37,10 @@ Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será c
 		led = Pin(15, Pin.OUT)
 		
 		while True:
-		    led.value(1)
-		    sleep(0.5)
-		    led.value(0)
-		    sleep(2.0)
+		 led.value(1)
+		 sleep(0.5)
+		 led.value(0)
+		 sleep(2.0)
 		  
 
 5. Salve como "03_led_externo.py".
