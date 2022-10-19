@@ -3,6 +3,7 @@
 ## Essenciais
 
 * 01 NodeMCU (ESP8266-12 ou ESP32)
+* 01 Cabo USB tipo A -- tipo C
 * 01 Display LCD 1602 I2C
 * 01 Display OLED 128x64 I2C
 * 01 Display LED 7 segmentos (cátodo ou ânodo comum);
