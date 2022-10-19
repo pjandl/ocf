@@ -17,7 +17,7 @@ A parte da eletrônica requer o uso de alguma placa de desenvolvimento, tais com
 - Banana Py
 - STM 32 (blue pill, black pill)
 
-Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ocf/blob/master/lista-componentes.md).
+Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ocf/tree/main/lista-componentes.md).
 
 A parte da computação utilizará duas das mais conhecidas e flexíveis linguagens de programação: **C** e **Python**. Além das linguagens serão utilizados ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como Thonny e Arduino IDE.
 
@@ -29,6 +29,6 @@ Vamos trabalhar!
 
 Os materiais desta oficina estão distribuídos em diretórios diferentes para facilitar seu acesso e consulta. Segue uma lista, com os itens mais importantes no seu início.
 
-- [T-2022-2](https://github.com/pjandl/ocf/tree/master/T-2022-2) :: materiais da temporada *2022-2* da oficina, onde se localizam os roteiros dos experimentos/montagens e os exemplos correspondentes.
-- [NodeMCU](https://github.com/pjandl/ocf/tree/master/NodeMCU) :: contém informações específicas sobre as placas d de desenvolvimento NodeMCU baseadas no ESP8266 e ESP32.
-- [Componentes](https://github.com/pjandl/ocf/tree/master/Componentes) :: contém informações sobre componentes diversos, como resistores, leds, etc.
+- [T-2022-2](https://github.com/pjandl/ocf/tree/main/T-2022-2) :: materiais da temporada *2022-2* da oficina, onde se localizam os roteiros dos experimentos/montagens e os exemplos correspondentes.
+- [NodeMCU](https://github.com/pjandl/ocf/tree/main/NodeMCU) :: contém informações específicas sobre as placas d de desenvolvimento NodeMCU baseadas no ESP8266 e ESP32.
+- [Componentes](https://github.com/pjandl/ocf/tree/main/Componentes) :: contém informações sobre componentes diversos, como resistores, leds, etc.
