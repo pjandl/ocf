@@ -9,7 +9,7 @@ Um programa que efetua o acionamento do led existente na própria placa de desen
 
 ## Roteiro
 
-Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, pois será utilizado o LED montado na própria placa (*on board*).
+Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU ao computador, pois será utilizado o interpretador previamente instalado na placa de desenvolvimento e o LED montado na própria placa (*on board*).
 
 1. Conecte a placa NodeMCU à porta USB de seu computador.
 2. Abra o Thonny.
@@ -23,16 +23,19 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, 
 		# 02_led_onboard.py
 		# Acionamento do led existente na placa.
 		#
+		# O led onboard do ESP8266 é ativado em baixo, com value(0) ou off(),
+		# e desligado com value(1) ou on().		
+		#
 		from machine import Pin
 		from time import sleep
 		
-		led_onboard = Pin(16, Pin.OUT)
+		led_onboard = Pin(2, Pin.OUT)
 		
 		while True:
-		 led_onboard.value(1)
-		 sleep(0.5)
 		 led_onboard.value(0)
-		 sleep(2)
+		 sleep(0.5)
+		 led_onboard.value(1)
+		 sleep(2.0)
 		  
 
 5. Salve como "02_led_onboard.py".

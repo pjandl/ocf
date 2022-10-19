@@ -9,7 +9,7 @@ Um programa clássico executado diretamente pelo interpretador instalado na plac
 
 ## Roteiro
 
-Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, pois será utilizado apenas o interpretador previamente instalado na placa de desenvolvimento e o console do IDE Thonny.
+Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU ao computador, pois será utilizado apenas o interpretador previamente instalado na placa de desenvolvimento e o console do IDE Thonny.
 
 1. Conecte a placa NodeMCU à porta USB de seu computador.
 2. Abra o Thonny.
@@ -26,10 +26,10 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU, 
 		import sys
 
 		message = 'Hello World, from micro Python'
-
 		print(message)
-    
-		print(sys.implementation.name, 'on', sys.implementation._machine)
+
+		impl = sys.implementation
+		print(f'{impl.name} v{impl.version[0]}.{impl.version[1]}')
 
 
 5. Salve como "00_Hello_World.py".
