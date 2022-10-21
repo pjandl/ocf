@@ -16,24 +16,32 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 3. Observe se o console do interpretador Python é iniciado corretamente. Caso contrário: verifique em *Executar | Configurar interpretador* se o interpretador foi selecionado corretamente (MicroPython ESP8266) e se a porta de conexão está correta. Acione o botão *Stop* ou **CTRL+F2** para reiniciar a conexão.
 4. Digite o sketch que segue.
 
-		#
-		# Oficina de Computação Física
-		# Prof. Peter Jandl Jr
-		#
-		# 01_Ola.py
-		# Entrada e saida de string no console (da placa).
-		#
-		nome = input('Qual é o seu nome? ')
-		print ('Olá', nome)
-		
+```python
+#
+# Oficina de Computação Física
+# Prof. Peter Jandl Jr
+#
+# 01_Ola.py
+# Entrada e saida de string no console (da placa).
+#
+nome = input('Qual é o seu nome? ')
+print ('Olá', nome)
+
+```
 
 5. Salve como "01_Ola.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
-Sugestões:
+## Sugestões
+
 * Realize a entrada de valores diferentes, em variáveis distintas.
 * Converta a entrada de texto para inteiro com uso de *int()* ou real com *float()*.
 * Imprima tais valores.
 
+## Simulação
+
+Esta [experiência](https://wokwi.com/projects/346161396802650706) pode ser simulada no [Wokwi](https://wokwi.com/projects/346161396802650706) com uso de uma placa ESP32.
+
+---
 Oficina de Computação Física | Prof. Peter Jandl Jr
-2022-2
+<br/>2022-2
