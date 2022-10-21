@@ -35,9 +35,16 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 5. Salve como "00_Hello_World.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
-Sugestões:
+## Sugestões
+
 * Modifique a mensagem e execute novamente.
 * Imprima várias mensagens diferentes.
+
+### Simulação
+
+Esta [https://wokwi.com/projects/345887141617730130](experiência) pode ser simulada no [https://wokwi.com/projects/345887141617730130](Wokwi).
+
+---
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
 2022-2
