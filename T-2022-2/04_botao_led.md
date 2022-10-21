@@ -26,35 +26,44 @@ O pino físico 22 (D6) do NodeMCU, que corresponde a GPIO12, será conectada à 
 4. Observe se o console do interpretador Python é iniciado corretamente. Caso contrário: verifique em *Executar | Configurar interpretador* se o interpretador foi selecionado corretamente (MicroPython ESP8266) e se a porta de conexão está correta. Acione o botão *Stop* ou **CTRL+F2** para reiniciar a conexão.
 5. Digite o sketch que segue.
 
-		#
-		# Oficina de Computação Física
-		# Prof. Peter Jandl Jr
-		#
-		# 04_botao_led.py
-		# Um botão para acionamento do led externo.
-		#
-		from machine import Pin
-		from time import sleep
-		
-		led = Pin(15, Pin.OUT)
-		botao = Pin(12, Pin.IN)
+```python
+#
+# Oficina de Computação Física
+# Prof. Peter Jandl Jr
+#
+# 04_botao_led.py
+# Um botão para acionamento do led externo.
+#
+from machine import Pin
+from time import sleep
 
-		try:
-		    while True:
-		        led.value(botao.value())
-		        sleep(0.1)
-		except KeyboardInterrupt:
-		    led.value(0)
-		    print('Programa finalizado')
+led = Pin(15, Pin.OUT)
+botao = Pin(12, Pin.IN)
+
+try:
+	while True:
+		led.value(botao.value())
+		sleep(0.1)
+except KeyboardInterrupt:
+	led.value(0)
+	print('Programa finalizado')
 		  
+```
 
 5. Salve como "04_botao_led.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 7. Acione o botão e verifique o acendimento do led.
 
-Sugestões:
+## Sugestões
+
 * Modifique a temporização do laço e verique o comportamento do circuito.
 * inclua um *if/else* de maneira que possam ser impressas mensagens quando o led é aceso ou apagado.
 
+## Simulação
+
+Esta [experiência](https://wokwi.com/projects/346164150480667220) pode ser simulada no [Wokwi](https://wokwi.com/projects/346164150480667220) com uso de uma placa ESP32.
+
+---
+
 Oficina de Computação Física | Prof. Peter Jandl Jr
-2022-2
+<br/>2022-2
