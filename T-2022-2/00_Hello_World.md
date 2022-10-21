@@ -42,7 +42,7 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 
 ### Simulação
 
-Esta [https://wokwi.com/projects/345887141617730130](experiência) pode ser simulada no [https://wokwi.com/projects/345887141617730130](Wokwi).
+Esta [experiência](https://wokwi.com/projects/345887141617730130) pode ser simulada no [Wokwi](https://wokwi.com/projects/345887141617730130).
 
 ---
 
