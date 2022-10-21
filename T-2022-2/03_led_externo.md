@@ -22,31 +22,39 @@ Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será c
 4. Observe se o console do interpretador Python é iniciado corretamente. Caso contrário: verifique em *Executar | Configurar interpretador* se o interpretador foi selecionado corretamente (MicroPython ESP8266) e se a porta de conexão está correta. Acione o botão *Stop* ou **CTRL+F2** para reiniciar a conexão.
 5. Digite o sketch que segue.
 
-		#
-		# Oficina de Computação Física
-		# Prof. Peter Jandl Jr
-		#
-		# 03_led_externo.py
-		# Acionamento do led existente na placa.
-		#
-		from machine import Pin
-		from time import sleep
-		
-		led = Pin(15, Pin.OUT)
-		
-		while True:
-		    led.value(1)
-		    sleep(0.5)
-		    led.value(0)
-		    sleep(2.0)
-		  
+```python
+#
+# Oficina de Computação Física
+# Prof. Peter Jandl Jr
+#
+# 03_led_externo.py
+# Acionamento do led existente na placa.
+#
+from machine import Pin
+from time import sleep
+
+led = Pin(15, Pin.OUT)
+
+while True:
+	led.value(1)
+	sleep(0.5)
+	led.value(0)
+	sleep(2.0)
+
+```
 
 5. Salve como "03_led_externo.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
-Sugestões:
+## Sugestões
+
 * Modifique a temporização do led.
 * Imprima mensagens que indiquem o ponto de execução do programa.
 
+## Simulação
+
+Esta [experiência](https://wokwi.com/projects/346163718014370386) pode ser simulada no [Wokwi](https://wokwi.com/projects/346163718014370386) com uso de uma placa ESP32.
+
+---
 Oficina de Computação Física | Prof. Peter Jandl Jr
-2022-2
+<br/>2022-2
