@@ -16,21 +16,20 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 3. Observe se o console do interpretador Python é iniciado corretamente. Caso contrário: verifique em *Executar | Configurar interpretador* se o interpretador foi selecionado corretamente (MicroPython ESP8266) e se a porta de conexão está correta. Acione o botão *Stop* ou **CTRL+F2** para reiniciar a conexão.
 4. Digite o sketch que segue.
 
-		#
-		# Oficina de Computação Física
-		# Prof. Peter Jandl Jr
-		#
-		# 00_Hello_World.py
-		# Um clássico executado na placa de desenvolvimento!
-		#
-		import sys
+	#
+	# Oficina de Computação Física
+	# Prof. Peter Jandl Jr
+	#
+	# 00_Hello_World.py
+	# Um clássico executado na placa de desenvolvimento!
+	#
+	import sys
 
-		message = 'Hello World, from micro Python'
-		print(message)
+	message = 'Hello World, from micro Python'
+	print(message)
 
-		impl = sys.implementation
-		print(f'{impl.name} v{impl.version[0]}.{impl.version[1]}')
-
+	impl = sys.implementation
+	print(f'{impl.name} v{impl.version[0]}.{impl.version[1]}')
 
 5. Salve como "00_Hello_World.py".
 6. Para executar acione o botão *Executar* ou **F5**.
