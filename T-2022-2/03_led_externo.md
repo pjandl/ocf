@@ -14,6 +14,8 @@ Um programa que efetua o acionamento de um led montado externamente à placa de 
 
 Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao computador, como na figura que segue.
 
+![Circuito 03 led externo](https://github.com/pjandl/ocf/blob/main/T-2022-2/figuras/03_led_externo.png)
+
 Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será conectado ao ânodo do led (terminal positivo, mais longo). O cátodo do led (terminal negativo, mais curto) será conectado ao resistor (não tem polaridade), de maneira que fiquem em série. O outro terminal do resistor deve ser ligado ao pino físico 17 GND (*ground*) do NodeMCU, que é o terra do circuito.  
 
 1. Efetue a montagem indicada. Confira todas as conexões.
