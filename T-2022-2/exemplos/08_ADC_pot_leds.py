@@ -14,9 +14,9 @@ ledBran = Pin(13, Pin.OUT)
 ledVerm = Pin(15, Pin.OUT)
 
 def escala(azul, branco, vermelho):
-            ledAzul.value(azul)
-            ledBran.value(branco)
-            ledVerm.value(vermelho)
+    ledAzul.value(azul)
+    ledBran.value(branco)
+    ledVerm.value(vermelho)
     
 try:
     while True:
