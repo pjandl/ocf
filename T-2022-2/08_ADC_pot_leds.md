@@ -1,8 +1,8 @@
 # OFC::08 Conversão Analógica-Digital, potenciômetro e escala de LEDs
 
-Este programa utiliza uma entrada analógica-digital para efetuar a leitura de um potenciômetro, isto é um resistor de valor ajustável. Um potenciômetro possui três terminais: dois deles, laterais, dão acesso a sua resistência nominal (valor máximo. Seu terceiro terminal é o central e conhecido como cursor; está conectado a um botão de ajuste (rotacional ou deslizante), que permite obter uma resistência entre zero e o valor máximo do componente. Conectando os terminais laterais à alimentação, é possível obter uma tensão variável no cursos, proporcional ao valor do ajuste da resistência.
+Este programa utiliza uma entrada analógica-digital para efetuar a leitura de um potenciômetro, isto é um resistor de valor ajustável. Um potenciômetro possui três terminais: dois deles, laterais, dão acesso a sua resistência nominal (valor máximo. Seu terceiro terminal é o central e conhecido como cursor; está conectado a um botão de ajuste (rotacional ou deslizante), que permite obter uma resistência entre zero e o valor máximo do componente. Conectando os terminais laterais à alimentação, é possível obter uma tensão variável no cursor, proporcional ao valor do ajuste da resistência.
 
-O ESP8266 possui uma única entrada que funciona como ADC (*Analog-Digital Converter* ou conversor analógico-digital) capaz de ler uma tensão variável nesta entrada, produzindo uma leitura digital na faixa de 0 a 1023 (pois o ADC interno tem resolução de 10 bits, assim 2^10 = 1024).
+O ESP8266 possui uma única entrada analógica, no pino físico 1 (A0), na qual existe um *Analog-Digital Converter* (ADC) ou conversor analógico-digital, capaz de ler uma tensão variável na faixa de 0 a 3.3V (que é alimentação da placa), produzindo uma leitura digital na faixa de 0 a 1023 (pois o ADC interno tem resolução de 10 bits, assim 2^10 = 1024).
 
 Esta experiência mostra o uso do ADC disponível no ESP8266, exibindo numa escala de leds coloridos (e no console) os valores correspondentes às leituras analógicas obtidas de um potenciômetro.
 
