@@ -4,7 +4,7 @@ Um programa monitora o estado de um botão (*chave táctil*), de modo que seu ac
 
 ## Objetivo
 
-Configuração e uso de uma entrada digital, conectada à um botão; e uma saída digital, conectada à um led; mostrando o controle de um dispositivos externos ao NodeMCU (no caso um led).
+Configuração e uso de uma entrada digital, conectada à um botão; e uma saída digital, conectada à um led; mostrando o controle direto de dispositivos externos ao NodeMCU.
 
 ## Lista de Materiais
 
