@@ -2,6 +2,10 @@
 
 Um programa clássico executado diretamente pelo interpretador instalado na placa de desenvolvimento.
 
+## Objetivo
+
+Verificar a conexão adequada entre o computador e placa NodeMCU, para permitir a transferência de programas entre os dispositivos e a sua execução por meio do interpretador instalado na placa NodeMCU.
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266
