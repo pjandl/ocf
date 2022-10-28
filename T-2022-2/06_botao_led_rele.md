@@ -2,6 +2,10 @@
 
 Um programa que monitora o estado de um botão (*chave táctil*), de modo que seu acionamento alterna o funcionamento de um (módulo) relê e de um led montado externamente à placa de desenvolvimento, cujos estados são mantidos entre os acionamentos do botão. Quando o botão é acionado ocorre a troca de estado, acionando os dispositivosm até que o botão seja pressionado novamente. Mostra o uso de porta GPIO (*General Purpose Input Output*) como entrada digital ou como uma saída digital, além de variáveis para retenção de estado.
 
+## Objetivo
+
+Configuração e uso de uma entrada digital, conectada à um botão; e uma saída digital, conectada à um relê; mostrando o controle de dispositivos externos, de maior potência, ao NodeMCU com retenção de estado.
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
