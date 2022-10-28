@@ -2,6 +2,10 @@
 
 Um programa monitora o estado de um botão (*chave táctil*), de modo que seu acionamento liga o led montado externamente à placa de desenvolvimento. O led permanece aceso enquanto o botão é acionado/pressionado. Mostra o uso de porta GPIO (*General Purpose Input Output*) como entrada digital ou como uma saída digital.
 
+## Objetivo
+
+Configuração e uso de uma entrada digital, conectada à um botão; e uma saída digital, conectada à um led; mostrando o controle de um dispositivos externos ao NodeMCU (no caso um led).
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
