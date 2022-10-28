@@ -2,6 +2,10 @@
 
 Um programa que efetua o acionamento do led existente na própria placa de desenvolvimento.
 
+## Objetivo
+
+Utilizar elementos básicos da programação de dispositivos microprocessados.
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266
