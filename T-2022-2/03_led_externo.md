@@ -2,6 +2,10 @@
 
 Um programa que efetua o acionamento de um led montado externamente à placa de desenvolvimento. Mostra o uso de uma porta GPIO (*General Purpose Input Output*) como uma saída digital.
 
+## Objetivo
+
+Configuração e uso de uma saída digital, que pode ser utilizada para controlar dispositivos externos ao NodeMCU (no caso um led).
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
