@@ -4,6 +4,10 @@ Um programa que monitora o estado de um botão (*chave táctil*), de modo que se
 
 A montagem é a mesma que a proposta na experiência anterior (04 Botão e LED).
 
+## Objetivo
+
+Configuração e uso de uma entrada digital, conectada à um botão; e uma saída digital, conectada à um led; mostrando o controle de dispositivos externos ao NodeMCU com retenção de estado.
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
