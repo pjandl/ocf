@@ -6,6 +6,10 @@ O ESP8266 possui única uma entrada analógica, no pino físico 1 (A0), na qual 
 
 Esta experiência mostra o uso do ADC disponível no ESP8266, exibindo a luminosidade detectada pelo LDR numa escala de leds coloridos.
 
+## Objetivo
+
+Emprego de uma entrada analógica, incluindo a conversor analógico-digital correspondente, para utilização de um sensor analógico de luminosidade, apresentando o resultado numa escala de leds (uso de saídas digitais).
+
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
