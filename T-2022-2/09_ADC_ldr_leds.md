@@ -14,7 +14,7 @@ Emprego de uma entrada analógica, incluindo a conversor analógico-digital corr
 
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
-* 01 LDR (GL5528)
+* 01 Fotoresistor LDR (GL5528)
 * 01 Resistor 10K ohms (marron-preto-laranja)
 * 03 Leds (vermelho, branco, verde)
 * 03 Resistores 330 ohms (laranja-laranja-marrom)
@@ -26,7 +26,7 @@ Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao 
 
 ![Circuito 09 ADC ldr leds](https://github.com/pjandl/ocf/blob/main/T-2022-2/figuras/09_ADC_ldr_leds.png)
 
-Observe que o pino físico 2 (GND) e o pino físico 10 (3V) do NodeMCU são conectados aos terminais laterais do potenciômetro. O LDR tem um terminal conectado à alimentação (3V) e outro conectado ao resistor de 10K (como um divisor de tensão em série). O outro terminal do resistor é ligado ao terra (GND). A junção LDR-resistor é ligada ao pino físico 1 (A0), que corresponde ao conversor ADC disponível nesta placa.
+O pino físico 10 (3V) do NodeMCU é ligado à um dos terminais do fotoresistor (que não tem polaridade). O outro terminal do fotoresistor forma uma junção com um dos terminais do resistor de 10K e o pino físico 1 (A0), que corresponde à entrada do conversor ADC disponível nesta placa. O segundo terminal do resistor de 10K é ligado ao terra, ou seja, ao pino físico 2 (GND).
 
 O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O pino físico 21 (D7 -> GPIO13) é conectado ao ânodo do led branco. O pino físico 22 (D6 -> GPIO12) é conectado ao ânodo do led verde. Um terminal de cada resistor de 330 ohms deve ser conectado aos cátodos dos led e o outro terminal ao terra (pino físico 24 -> GND, ou outro equivalente).
 
