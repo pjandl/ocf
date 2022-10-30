@@ -15,8 +15,8 @@ Emprego de uma entrada analógica, incluindo a conversor analógico-digital corr
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
 * 01 Potenciômetro 10K ohms
-* 03 Leds (vermelho, branco, azul)
-* 03 Resistores 330 ohms
+* 03 Leds (vermelho, branco, verde)
+* 03 Resistores 330 ohms (laranja-laranja-marrom)
 * Jumpers
 
 ## Roteiro
@@ -27,7 +27,7 @@ Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao 
 
 Observe que o pino físico 2 (GND) e o pino físico 10 (3V) do NodeMCU são conectados aos terminais laterais do potenciômetro. O terminal central do potenciômetro é conectado ao pino físico 1 (A0), que corresponde ao conversor ADC disponível nesta placa.
 
-O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O pino físico 21 (D7 -> GPIO13) é conectado ao ânodo do led branco. O pino físico 22 (D6 -> GPIO12) é conectado ao ânodo do led azul. Um terminal de cada resistor de 330 ohms deve ser conectado aos cátodos dos led e o outro terminal ao terra (pino físico 24 -> GND, ou outro equivalente).
+O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O pino físico 21 (D7 -> GPIO13) é conectado ao ânodo do led branco. O pino físico 22 (D6 -> GPIO12) é conectado ao ânodo do led verde. Um terminal de cada resistor de 330 ohms deve ser conectado aos cátodos dos led e o outro terminal ao terra (pino físico 24 -> GND, ou outro equivalente).
 
 1. Efetue a montagem indicada. Confira todas as conexões.
 2. Conecte a placa NodeMCU à porta USB de seu computador.
@@ -47,12 +47,12 @@ from machine import Pin, ADC
 from time import sleep
 
 pot = ADC(0)
-ledAzul = Pin(12, Pin.OUT)
+ledVerd = Pin(12, Pin.OUT)
 ledBran = Pin(13, Pin.OUT)
 ledVerm = Pin(15, Pin.OUT)
 
-def escala(azul, branco, vermelho):
-    ledAzul.value(azul)
+def escala(verde, branco, vermelho):
+    ledVerd.value(verde)
     ledBran.value(branco)
     ledVerm.value(vermelho)
     
@@ -79,7 +79,7 @@ except KeyboardInterrupt:
 
 ## Sugestões
 
-* Modifique o programa para que existam cinco faixas: [0 a 204] led azul; [205 a 409] led azul e led branco; [410 a 614] led branco; [615 a 819] led branco e led vermelho; [819 a 1024] led vermelho.
+* Modifique o programa para que existam cinco faixas: [0 a 204] led verde; [205 a 409] led verde e led branco; [410 a 614] led branco; [615 a 819] led branco e led vermelho; [819 a 1024] led vermelho.
 
 ## Simulação
 
