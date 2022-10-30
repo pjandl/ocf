@@ -12,8 +12,8 @@ Configuração e uso de uma entrada digital, conectada à um botão; e uma saíd
 * Cabo USB-A -- USB-C
 * 01 Led (qualquer cor)
 * 01 Chave táctil
-* 01 Resistor 220 ou 330 ohms
-* 01 Resistor 10K ohms
+* 01 Resistor 220 ohms (vermelho-vermelho-marron) ou 330 ohms (laranja-laranja-marrom)
+* 01 Resistor 10K ohms (marron-preto-laranja)
 * 01 Módulo relê (1 ou 2 canais) 5V
 * Jumpers
 

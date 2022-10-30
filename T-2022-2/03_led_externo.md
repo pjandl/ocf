@@ -11,7 +11,7 @@ Configuração e uso de uma saída digital, que pode ser utilizada para controla
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
 * 01 Led (qualquer cor)
-* 01 Resistor 220 ou 330 ohms
+* 01 Resistor 220 ohms (vermelho-vermelho-marron) ou 330 ohms (laranja-laranja-marrom)
 * Jumpers
 
 ## Roteiro
