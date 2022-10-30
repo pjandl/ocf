@@ -9,7 +9,7 @@ from machine import Pin
 from time import sleep
 
 led = Pin(15, Pin.OUT)
-botao = Pin(12, Pin.IN)
+botao = Pin(14, Pin.IN)
 
 try:
     while True:
