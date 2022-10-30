@@ -10,10 +10,10 @@ Esta experiência mostra o uso do ADC disponível no ESP8266, exibindo a tempera
 
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
-* 01 NTC 10K
-* 01 Resistor 10K ohms
+* 01 Termistor NTC 10K
+* 01 Resistor 10K ohms (marron-preto-laranja)
 * 01 Led vermelho
-* 01 Resistor 330 ohms
+* 01 Resistor 330 ohms (laranja-laranja-marrom)
 * Jumpers
 
 ## Roteiro
@@ -22,9 +22,9 @@ Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao 
 
 ![Circuito 10 ADC NTC](https://github.com/pjandl/ocf/blob/main/T-2022-2/figuras/10_ADC_ntc.png)
 
-O pino físico 16 (Vin) do NodeMCU é conectado a um dos terminais do resistor de 10K. O segundo terminal do resistor forma uma junção com o NTC e uma conexão ao pino físico 1 (A0), que corresponde ao conversor ADC disponível nesta placa. O outro terminal do NTC deve ser conectado ao terra (pino físico 17 -> GND, ou outro equivalente).
+O pino físico 10 (3V3) do NodeMCU é conectado a um dos terminais do termistor NTC, que não tem polaridade. O segundo terminal do termistor NTC forma uma junção com o resistor ee 10K e uma conexão ao pino físico 1 (A0), que corresponde ao conversor ADC disponível nesta placa. O outro terminal do resistor de 10K deve ser conectado ao terra (pino físico 2 -> GND, ou outro equivalente).
 
-O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O cátodo do led deve ser conectado a um dos terminais resistor de 330 ohms e o outro terminal ao terra (pino físico 14 -> GND).
+O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O cátodo do led deve ser conectado a um dos terminais resistor de 330 ohms e o outro terminal ao terra (pino físico 2 -> GND).
 
 1. Efetue a montagem indicada. Confira todas as conexões.
 2. Conecte a placa NodeMCU à porta USB de seu computador.
