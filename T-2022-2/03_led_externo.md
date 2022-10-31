@@ -49,8 +49,8 @@ while True:
 
 ```
 
-5. Salve como "03_led_externo.py".
-6. Para executar acione o botão *Executar* ou **F5**.
+6. Salve como "03_led_externo.py".
+7. Para executar acione o botão *Executar* ou **F5**.
 
 ## Sugestões
 
