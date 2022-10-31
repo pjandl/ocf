@@ -55,9 +55,9 @@ except KeyboardInterrupt:
 
 ```
 
-5. Salve como "07_ADC_pot.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Modifique a posição do cursor do potenciômetro, indo do início ao fim do curso possível, verificando os valores lidos e apresentados no console.
+6. Salve como "07_ADC_pot.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Modifique a posição do cursor do potenciômetro, indo do início ao fim do curso possível, verificando os valores lidos e apresentados no console.
 
 ## Sugestões
 
