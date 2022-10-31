@@ -73,9 +73,9 @@ except KeyboardInterrupt:
 
 ```
 
-5. Salve como "08_ADC_pot_leds.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Modifique a posição do cursor do potenciômetro, indo do início ao fim do curso possível, verificando o acendimento dos leds correspondentes a cada faixa, conferindo com os valores apresentados no console.
+6. Salve como "08_ADC_pot_leds.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Modifique a posição do cursor do potenciômetro, indo do início ao fim do curso possível, verificando o acendimento dos leds correspondentes à cada faixa, conferindo com os valores apresentados no console.
 
 ## Sugestões
 
