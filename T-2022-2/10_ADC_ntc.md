@@ -72,9 +72,9 @@ except KeyboardInterrupt:
 
 ```
 
-5. Salve como "10_ADC_ntc.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Modifique temperatura no NTC segurando-o , verificando o acendimento do led de alerta e dos valores apresentados no console.
+6. Salve como "10_ADC_ntc.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Modifique temperatura no NTC segurando-o , verificando o acendimento do led de alerta e dos valores apresentados no console.
 
 ## Sugestões
 
