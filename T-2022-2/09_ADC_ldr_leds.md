@@ -73,9 +73,9 @@ except KeyboardInterrupt:
 
 ```
 
-5. Salve como "09_ADC_ldr_leds.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Modifique a incidência de luz no LDR (cobrindo-o e usando uma lanterna), verificando o acendimento dos leds, conferindo com os valores apresentados no console.
+6. Salve como "09_ADC_ldr_leds.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Modifique a incidência de luz no LDR (cobrindo-o ou usando uma lanterna), verificando o acendimento dos leds, conferindo com os valores apresentados no console.
 
 ## Sugestões
 
