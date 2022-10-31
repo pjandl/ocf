@@ -56,9 +56,9 @@ except KeyboardInterrupt:
 		  
 ```
 
-5. Salve como "04_botao_led.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Acione o botão e verifique o acendimento do led.
+6. Salve como "04_botao_led.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Acione o botão e verifique o acendimento do led.
 
 ## Sugestões
 
