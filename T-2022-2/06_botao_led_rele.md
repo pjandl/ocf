@@ -66,9 +66,9 @@ except KeyboardInterrupt:
 		  
 ```
 
-5. Salve como "06_botao_led_rele.py".
-6. Para executar acione o botão *Executar* ou **F5**.
-7. Acione o botão e verifique o acendimento do led e a retenção de seu estado.
+6. Salve como "06_botao_led_rele.py".
+7. Para executar acione o botão *Executar* ou **F5**.
+8. Acione o botão e verifique o acendimento do led, a retenção de seu estado e a ativação correspondente do relê.
 
 ## Sugestões
 
