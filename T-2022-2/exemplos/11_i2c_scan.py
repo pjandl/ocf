@@ -8,7 +8,7 @@
 from machine import Pin, I2C
 from os import uname
 
-i2c_bus = I2C(sda=Pin(5), scl=Pin(4))
+i2c_bus = I2C(sda=Pin(4), scl=Pin(5))
 
 print('Pesquisando dispositivos I2C conectados ao', uname()[0],'...')
 dispositivos = i2c_bus.scan()

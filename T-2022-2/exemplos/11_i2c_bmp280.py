@@ -9,7 +9,7 @@ from machine import Pin, I2C
 from bmp280 import BME280
 from time import sleep
     
-i2c_bus = I2C(sda=Pin(5), scl=Pin(4))
+i2c_bus = I2C(sda=Pin(4), scl=Pin(5))
 
 # Sensor BMP280
 bme = BME280(i2c=i2c_bus)
