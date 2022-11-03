@@ -3,12 +3,15 @@
 # Prof. Peter Jandl Jr
 #
 # 08_ADC_pot_leds.py
-# Leitura analógica de um potenciômetro, com exibição numa escala de leds.
+# Leitura analógica de um potenciômetro, com exibição numa
+# escala de leds.
 #
 from machine import Pin, ADC
 from time import sleep
 
+# potenciômetro conectado ao pino 1 (ADC0)
 pot = ADC(0)
+# saidas conectadas aos leds externos
 ledVerd = Pin(12, Pin.OUT)
 ledBran = Pin(13, Pin.OUT)
 ledVerm = Pin(15, Pin.OUT)

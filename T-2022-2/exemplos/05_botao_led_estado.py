@@ -3,13 +3,17 @@
 # Prof. Peter Jandl Jr
 #
 # 05_botao_led_estado.py
-# Um botão, com manutenção de estado, para acionamento do led externo.
+# Um botão, com manutenção de estado, para acionamento do
+# led externo.
 #
 from machine import Pin
 from time import sleep
 
+# saída conectada ao led externo
 led = Pin(15, Pin.OUT)
+# entrada conectada à chave táctil
 botao = Pin(14, Pin.IN)
+
 estado = 0
 ultimo = 0
 try:

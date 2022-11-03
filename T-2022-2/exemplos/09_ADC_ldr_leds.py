@@ -8,7 +8,9 @@
 from machine import Pin, ADC
 from time import sleep
 
+# fotoresistor conectado ao pino 1 (ADC0)
 ldr = ADC(0)
+# lista de saidas conectadas aos leds externos
 leds = [
     Pin(12, Pin.OUT),
     Pin(13, Pin.OUT),

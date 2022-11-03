@@ -3,11 +3,13 @@
 # Prof. Peter Jandl Jr
 #
 # 07_ADC_pot.py
-# Leitura analógica de um potenciômetro, com exibição do valor no console.
+# Leitura analógica de um potenciômetro, com exibição do
+# valor no console.
 #
 from machine import Pin, ADC
 from time import sleep
 
+# potenciômetro conectado ao pino 1 (ADC0)
 pot = ADC(0)
 try:
     while True:

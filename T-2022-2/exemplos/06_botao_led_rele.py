@@ -9,8 +9,11 @@
 from machine import Pin
 from time import sleep
 
+# saída conectada ao led externo
 led = Pin(15, Pin.OUT)
+# entrada conectada à chave táctil
 botao = Pin(12, Pin.IN)
+
 estado = False
 led.value(estado)
 print('Controle:', estado)
