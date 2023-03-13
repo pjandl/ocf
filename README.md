@@ -19,7 +19,7 @@ A parte da eletrônica requer o uso de alguma placa de desenvolvimento de baixo 
 
 Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores, displays e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ocf/tree/main/lista-componentes.md).
 
-A parte da computação utilizará duas das mais conhecidas e flexíveis linguagens de programação: [**C++**](https://www.arduino.cc/reference/en/) e [**Python**](https://docs.micropython.org/en/latest/). Além destas linguagens serão utilizados ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como [Thonny](https://thonny.org/) e [Arduino IDE](https://www.arduino.cc/en/software).
+A parte da computação utilizará duas das mais conhecidas e flexíveis linguagens de programação: [**C++**](https://www.arduino.cc/reference/en/) e [**Python**](https://docs.micropython.org/en/latest/). Além destas linguagens serão utilizados ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como [Thonny](https://github.com/thonny/thonny/releases/) e [Arduino IDE](https://www.arduino.cc/en/software).
 
 Isto permitirá a montagem de muitos protótipos, explorando princípios da eletrônica, da programação de computadores e da comunicação em rede, possibilitando que seja, criados sistemas de captura de dados, de automação residencial/predial/comercial/industrial, aplicações de Internet das Coisas (IoT), além de jogos, brinquedos e mais.
 

@@ -5,7 +5,6 @@
 * 01 NodeMCU (ESP8266-12 ou ESP32)
 * 01 Cabo USB tipo A -- tipo C
 * 01 Display LCD 1602 I2C
-* 01 Display OLED 128x64 I2C
 * 01 Display LED 7 segmentos (cátodo ou ânodo comum);
 * 01 Sensor DHT11
 * 01 Módulo BMP180 ou BMP280
@@ -32,6 +31,7 @@
 * 01 Módulo TM1636
 * 01 Módulo BH1750
 * 02 Sensor DS18B20
+* 01 Display OLED 128x64 I2C
 * 01 Display OLED 128x64 SPI
 * 01 Módulo Matriz de LEDs 8x8 c/ 4 dígitos
 * 01 Sensor de presença infravermelhor (PIR)
