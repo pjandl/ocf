@@ -34,18 +34,18 @@ Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será c
 # Prof. Peter Jandl Jr
 #
 # 03_led_externo.py
-# Acionamento do led existente na placa.
+# Acionamento do led externo à placa.
 #
 from machine import Pin
 from time import sleep
 
-led = Pin(15, Pin.OUT)
+led1 = Pin(15, Pin.OUT)
 
 while True:
-	led.value(1)
-	sleep(0.5)
-	led.value(0)
-	sleep(2.0)
+    led1.value(1)
+    sleep(0.5)
+    led1.value(0)
+    sleep(0.5)
 
 ```
 
@@ -56,6 +56,33 @@ while True:
 
 * Modifique a temporização do led, aumentando ou diminuindo os valores usados na função `sleep`.
 * Imprima mensagens que indiquem o ponto de execução do programa.
+* Acrescente na montagem, um segundo led, de qualquer cor, com outro resistor de mesmo valor, mas conectando em outra saída do NodeMCU (por exemplo, pino físico 21 (D7) ou GPIO13). Veja as modificações neste outro sketch:
+
+```python
+#
+# Oficina de Computação Física
+# Prof. Peter Jandl Jr
+#
+# 03_dois_leds_externos.py
+# Acionamento dos leds externos à placa.
+#
+from machine import Pin
+from time import sleep
+
+led1 = Pin(15, Pin.OUT)
+led2 = Pin(13, Pin.OUT)
+
+while True:
+    led1.value(1)
+    sleep(0.5)
+    led1.value(0)
+    sleep(0.5)
+    led2.value(1)
+    sleep(0.5)
+    led2.value(0)
+    sleep(0.5)
+
+```
 
 ## Simulação
 

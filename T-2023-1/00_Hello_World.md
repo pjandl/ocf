@@ -53,6 +53,5 @@ print(f'{impl.name} v{impl.version[0]}.{impl.version[1]}')
 Esta [experiência](https://wokwi.com/projects/345887141617730130) pode ser simulada no [Wokwi](https://wokwi.com/projects/345887141617730130).
 
 ---
-
 Oficina de Computação Física | Prof. Peter Jandl Jr
 <br/>2023-1
