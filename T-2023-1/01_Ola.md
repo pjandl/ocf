@@ -1,6 +1,6 @@
-# OFC::00 Hello World
+# OFC::01 Olá
 
-Um programa clássico executado diretamente pelo interpretador instalado na placa de desenvolvimento, com uso do IDE Thonny.
+Programa que realiza operações de entrada e saida de string no console (da placa), sendo executado diretamente pelo interpretador instalado na placa de desenvolvimento.
 
 ## Objetivo
 
@@ -27,32 +27,27 @@ Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU a
 # Oficina de Computação Física
 # Prof. Peter Jandl Jr
 #
-# 00_Hello_World.py
-# Um clássico executado na placa de desenvolvimento!
+# 01_Ola.py
+# Entrada e saida de string no console (da placa).
 #
-import sys
-
-message = 'Hello World, from micro Python'
-print(message)
-
-impl = sys.implementation
-print(f'{impl.name} v{impl.version[0]}.{impl.version[1]}')
+nome = input('Qual é o seu nome? ')
+print ('Olá', nome)
 
 ```
 
-5. Salve como "00_Hello_World.py".
+5. Salve como "01_Ola.py".
 6. Para executar acione o botão *Executar* ou **F5**.
 
 ## Sugestões
 
-* Modifique a mensagem (variável `message`) e execute novamente.
-* Imprima várias mensagens diferentes, utilizando outros comandos `print`.
+* Realize a entrada de valores diferentes, em variáveis distintas.
+* Converta a entrada de texto para inteiro com uso de *int()* ou real com *float()*.
+* Imprima tais valores.
 
-### Simulação
+## Simulação
 
-Esta [experiência](https://wokwi.com/projects/345887141617730130) pode ser simulada no [Wokwi](https://wokwi.com/projects/345887141617730130).
+Esta [experiência](https://wokwi.com/projects/346161396802650706) pode ser simulada no [Wokwi](https://wokwi.com/projects/346161396802650706) com uso de uma placa ESP32.
 
 ---
-
 Oficina de Computação Física | Prof. Peter Jandl Jr
 <br/>2023-1
