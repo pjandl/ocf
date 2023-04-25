@@ -14,11 +14,15 @@ Configuração e uso de uma saída digital, que pode ser utilizada para controla
 * 01 Resistor 220 ohms (vermelho-vermelho-marron) ou 330 ohms (laranja-laranja-marrom)
 * Jumpers
 
+> Observe que o MicroPython já deve ter sido instalado previamente na placa NodeMCU utilizada.
+
 ## Roteiro
 
 Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao computador, como na figura que segue. Aqui um led é conectado a uma saída do NodeMCU, que controla seu acendimento. O resistor, montado em série ao led, é usado para limitar a corrente elétrica fornecida pela placa NodeMCU e que passa pelo led, evitando danificar tais componentes. 
 
 ![Circuito 03 led externo](https://github.com/pjandl/ocf/blob/main/T-2023-1/figuras/03_led_externo.png)
+
+> Esta montagem cria um circuito elétrico, ou seja, um caminho para a circulação de corrente elétrica. O pino do NodeMCU usado como saída fornece uma corrente elétrica, que deve fluir; entrando pelo ânodo do led e saindo pelo seu cátodo; entrando por um terminal do resistor e saindo por outro, retornando ao NodeMCU por meio do seu terra (*ground*).
 
 Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será conectado ao ânodo do led (terminal positivo, mais longo). O cátodo do led (terminal negativo, mais curto) será conectado ao resistor (não tem polaridade), de maneira que fiquem em série. O outro terminal do resistor deve ser ligado ao pino físico 17 GND (*ground*) do NodeMCU, que é o terra do circuito.  
 

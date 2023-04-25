@@ -11,6 +11,8 @@ Utilizar elementos básicos da programação de dispositivos microprocessados.
 * Placa NodeMCU ESP8266
 * Cabo USB-A -- USB-C
 
+> Observe que o MicroPython já deve ter sido instalado previamente na placa NodeMCU utilizada.
+
 ## Roteiro
 
 Este roteiro não requer qualquer montagem, apenas a conexão da placa NodeMCU ao computador, pois será utilizado o interpretador previamente instalado na placa de desenvolvimento e o LED montado na própria placa (*on board*).
