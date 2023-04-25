@@ -17,11 +17,13 @@ Configuração e uso de uma entrada digital, conectada à um botão; e uma saíd
 * 01 Módulo relê (1 ou 2 canais) 5V
 * Jumpers
 
+> Observe que o MicroPython já deve ter sido instalado previamente na placa NodeMCU utilizada.
+
 ## Roteiro
 
 Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao computador, como na figura que segue.
 
-![Circuito 06 botão led relê](https://github.com/pjandl/ocf/blob/main/T-2022-2/figuras/06_botao_led_rele.png)
+![Circuito 06 botão led relê](https://github.com/pjandl/ocf/blob/main/T-2023-1/figuras/06_botao_led_rele.png)
 
 Observe que o pino físico 20 (D8) do NodeMCU, que corresponde a GPIO15, será conectado ao ânodo do led (terminal positivo, mais longo). O cátodo do led (terminal negativo, mais curto) será conectado ao resistor (não tem polaridade), de maneira que fiquem em série. O outro terminal do resistor deve ser ligado ao pino físico 17 GND (*ground*) do NodeMCU, que é o terra do circuito.
 
@@ -81,4 +83,4 @@ Esta [experiência](https://wokwi.com/projects/346322704191717972) pode ser simu
 ---
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
-<br/>2022-2
+<br/>2023-1
