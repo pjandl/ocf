@@ -1,6 +1,6 @@
-# OFC::09 Conversão Analógica-Digital, fotoresistor e escala de LEDs
+# OFC::09 Conversão Analógica-Digital, fotorresistor e escala de LEDs
 
-Este programa utiliza uma entrada analógica-digital para efetuar a leitura de um *fotoresistor* ou *light dependant resistor* (LDR), ou seja, um resistor variável conforme a luminosidade detectada. O LDR possui dois terminais, sem polaridade e, em geral, sua resistência é tanto menor quanto maior a luminosidade recebida. O LDR será montado em série com um resistor de valor fixo, criando um divisor de tensão, cuja tensão variável tem relação com a luminosidade. A junção do LDR e do resistor será conectada a entrada analógica do ESP8266.
+Este programa utiliza uma entrada analógica-digital para efetuar a leitura de um *fotorresistor* ou *light dependant resistor* (LDR), ou seja, um resistor variável conforme a luminosidade detectada. O LDR possui dois terminais, sem polaridade e, em geral, sua resistência é tanto menor quanto maior a luminosidade recebida. O LDR será montado em série com um resistor de valor fixo, criando um divisor de tensão, cuja tensão variável tem relação com a luminosidade. A junção do LDR e do resistor será conectada a entrada analógica do ESP8266.
 
 O ESP8266 possui única uma entrada analógica, no pino físico 1 (A0), na qual existe um *Analog-Digital Converter* (ADC) ou conversor analógico-digital, capaz de ler uma tensão variável na faixa de 0 a 3.3V (que é alimentação da placa), produzindo uma leitura digital na faixa de 0 a 1023 (pois o ADC interno tem resolução de 10 bits, assim 2^10 = 1024).
 
@@ -14,7 +14,7 @@ Emprego de uma entrada analógica, incluindo a conversor analógico-digital corr
 
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- USB-C
-* 01 Fotoresistor LDR (GL5528)
+* 01 Fotorresistor LDR (GL5528)
 * 01 Resistor 10K ohms (marron-preto-laranja)
 * 03 Leds (vermelho, branco, verde)
 * 03 Resistores 330 ohms (laranja-laranja-marrom)
@@ -28,7 +28,7 @@ Este roteiro requer uma montagem simples, além da conexão da placa NodeMCU ao 
 
 ![Circuito 09 ADC ldr leds](https://github.com/pjandl/ocf/blob/main/T-2023-1/figuras/09_ADC_ldr_leds.png)
 
-O pino físico 10 (3V) do NodeMCU é ligado à um dos terminais do fotoresistor (que não tem polaridade). O outro terminal do fotoresistor forma uma junção com um dos terminais do resistor de 10K e o pino físico 1 (A0), que corresponde à entrada do conversor ADC disponível nesta placa. O segundo terminal do resistor de 10K é ligado ao terra, ou seja, ao pino físico 2 (GND).
+O pino físico 10 (3V) do NodeMCU é ligado à um dos terminais do fotorresistor (que não tem polaridade). O outro terminal do fotoresistor forma uma junção com um dos terminais do resistor de 10K e o pino físico 1 (A0), que corresponde à entrada do conversor ADC disponível nesta placa. O segundo terminal do resistor de 10K é ligado ao terra, ou seja, ao pino físico 2 (GND).
 
 O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O pino físico 21 (D7 -> GPIO13) é conectado ao ânodo do led branco. O pino físico 22 (D6 -> GPIO12) é conectado ao ânodo do led verde. Um terminal de cada resistor de 330 ohms deve ser conectado aos cátodos dos led e o outro terminal ao terra (pino físico 24 -> GND, ou outro equivalente).
 
@@ -44,7 +44,7 @@ O pino físico 20 (D8 -> GPIO15) é conectado ao ânodo do led vermelho. O pino 
 # Prof. Peter Jandl Jr
 #
 # 09_ADC_ldr_leds.py
-# Leitura analógica de um fotoresistor (LDR), com exibição numa escala de leds.
+# Leitura analógica de um fotorresistor (LDR), com exibição numa escala de leds.
 #
 from machine import Pin, ADC
 from time import sleep
