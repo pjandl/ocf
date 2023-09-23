@@ -14,12 +14,14 @@ A parte da eletrônica requer o uso de alguma placa de desenvolvimento de baixo 
 - Arduino (uno, mega, nano)
 - NodeMCU (esp8266, esp32)
 - Raspberry Pi (Pico, Pico W)
-- Banana Py
+- Banana Py PicoW
 - STM 32 (blue pill, black pill)
 
 Também serão utilizados componentes eletrônicos diversos, tais como resistores, termistores, foto-resistores, leds, relês, servo-motores, motores DC, módulos sensores, displays e outros. Para aqueles que desejam dispor destes elementos para realizar livremente as montagens apresentadas ou outras, sugere-se os itens da [lista de componentes](https://github.com/pjandl/ocf/tree/main/lista-componentes.md).
 
-A parte da computação utilizará duas das mais conhecidas e flexíveis linguagens de programação: [**C++**](https://www.arduino.cc/reference/en/) e [**Python**](https://docs.micropython.org/en/latest/). Além destas linguagens serão utilizados ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como [Thonny](https://github.com/thonny/thonny/releases/) e [Arduino IDE](https://www.arduino.cc/en/software).
+A parte da computação usa duas das mais conhecidas e flexíveis linguagens de programação: [**C++**](https://www.arduino.cc/reference/en/) e [**Python**](https://docs.micropython.org/en/latest/). Além destas linguagens é conveniente a utilização de ambientes de desenvolvimento integrados (*Integrated Development Enviroments* - IDEs) como [Thonny](https://github.com/thonny/thonny/releases/) e [Arduino IDE](https://www.arduino.cc/en/software), que facilitam muito o processo de desenvolvimento e de testes.
+
+Daremos preferência ao uso do Python, pois sua simplicidade leva a um aprendizado mais rápido, o que é sempre interessante. Na verdade, utilizaremos o **MicroPython**, uma versão mais leve do Python, criada com o intuito de incentivar o uso de placas de desenvolvimento dotadas de capacidades mais sofisticadas, mas de ótimo custo/benefício, como os NodeMCU ESP8266 e ESP32, as Raspberry Pi Pico e Pico W, e a Banana Py PicoW.
 
 Isto permitirá a montagem de muitos protótipos, explorando princípios da eletrônica, da programação de computadores e da comunicação em rede, possibilitando que seja, criados sistemas de captura de dados, de automação residencial/predial/comercial/industrial, aplicações de Internet das Coisas (IoT), além de jogos, brinquedos e mais.
 
