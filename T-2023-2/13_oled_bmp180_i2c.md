@@ -31,7 +31,9 @@ Este roteiro requer a montagem simples indicada na figura que segue, onde o barr
 
 Observe as conexões entre o NodeMCU, o protoboard, o display e o módulo sensor para constituir o barramento I2C: linha 4 para SDA, linha 5 para SCL, linha 6 para GND e linha 7 para VCC. 
 
-*Preste atenção nas conexões com o display e o módulo sensor, pois a pinagem **não** é padronizada e varia conforme o fabricante!*
+> :warning: **Aviso:** Preste atenção nas conexões com o display, pois a pinagem *não* é padronizada e varia conforme o fabricante!
+
+> :bulb: **Dica:** Você pode verificar a conexão correta dos dispositivos com uso do exemplo "11_i2c.py" que executa uma varredura no barramento I2C exibindo o endereço dos dispositivos conectados (display OLED e sensor BMP180).
 
 Com esta montagem e o código que segue, é possível exibir informações coletadas pelo módulo sensor BMP180 no display OLED conectados ao NodeMCU pelo barramento I2C.
 

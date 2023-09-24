@@ -30,9 +30,11 @@ Este roteiro requer a montagem simples indicada na figura que segue, onde o barr
 
 ![Circuito 12 OLED I2C](https://github.com/pjandl/ocf/blob/main/T-2023-2/figuras/12_oled_i2c.png)
 
-Observe as conexões entre o NodeMCU, o protoboard e o display para constituir o barramento I2C: linha 4 para SDA, linha 5 para SCL, linha 6 para GND e linha 7 para VCC. 
+Observe as conexões entre o NodeMCU, o protoboard e o display para constituir o barramento I2C: linha 4 para SDA, linha 5 para SCL, linha 6 para GND e linha 7 para VCC.
 
-*Preste atenção nas conexões com o display, pois a pinagem **não** é padronizada e varia conforme o fabricante!*
+> :warning: **Aviso:** Preste atenção nas conexões com o display, pois a pinagem *não* é padronizada e varia conforme o fabricante!
+
+> :bulb: **Dica:** Você pode verificar a conexão correta dos dispositivos com uso do exemplo "11_i2c.py" que executa uma varredura no barramento I2C exibindo o endereço do dispositivo conectado (display OLED).
 
 Com esta montagem e o código que segue, é possível exibir informações no display OLED conectado ao NodeMCU pelo barramento I2C.
 
