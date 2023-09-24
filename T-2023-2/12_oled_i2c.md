@@ -10,7 +10,7 @@ O I2C, visto na montagem anterior [OFC::11 Barramento I2C](https://github.com/pj
 
 ## Objetivo
 
-Uso do barramento I2C para conexão simultânea com múltiplos dispositivos por meio de entradas digitais. A informação coletada será apresentada no console da aplicação.
+Uso do barramento I2C para conexão simultânea com múltiplos dispositivos por meio de entradas digitais. Também demonstra a exibição de informação no display OLED I2C.
 
 ## Lista de Materiais
 
