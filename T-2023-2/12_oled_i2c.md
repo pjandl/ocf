@@ -83,8 +83,17 @@ oled.poweroff() # desliga display
 ```
 
 6. Salve como "12_oled_i2c.py".
-7. Para executar acione o botão *Executar* ou **F5**.
-8. Devem ser exibidas várias mensagens, com uma pausa entre elas, alternando a exibição com fundo escuro (pontos apagados) e fundo claro (pontos ligados).
+7. Observe que este *script* faz uso da biblioteca *ssd1306*, que permite controlar o display OLED utilizado na montagem. Desta maneira, é necessário carregar o arquivo correspondente na placa NodeMCU. Para tanto faça o *download* do arquivo [`ssd1306.py`](https://github.com/pjandl/ocf/blob/main/Bibliotecas/ssd1306.py) disponível na seção [Bibliotecas](https://github.com/pjandl/ocf/blob/main/Bibliotecas) deste repositório.
+
+> :bulb: **Dica:** É interessante criar uma pasta **Bibliotecas** para que você organize todas as bibliotecas necessárias pelas diversas montagens da oficina, facilitando sua localização e uso futuros.
+
+8. Use o Thonny para abrir o arquivo `ssd1306.py` no local onde foi descarregado. Após abrir o arquivo, use a opção **Visualizar | Arquivos** para selecioná-lo. Com o botão direito do mouse, selecione **Enviar para /**, de que o arquivo da biblioteca seja gravado na placa. Confira se gravação foi feita corretamente verificando na parte inferior da tela a lista de arquivos gravados na placa.
+
+![Arquivo para dispositivo](https://github.com/pjandl/ocf/blob/main/T-2023-2/figuras/lib_to_device.png)
+
+9. Para executar acione o botão *Executar* ou **F5**.
+
+10. Devem ser exibidas várias mensagens, com uma pausa entre elas, alternando a exibição com fundo escuro (pontos apagados) e fundo claro (pontos ligados).
 
 ---
 
