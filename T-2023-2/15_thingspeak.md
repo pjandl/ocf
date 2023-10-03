@@ -110,6 +110,8 @@ Os dados enviados para o **ThingSpeak** também podem ser recuperados, permitind
 
 Nesta seção veremos como recuperar dados da plataforma ThingSpeak com o NodeMCU.
 
+> :bulb: **Dica:** A leitura (recuperação) de dados em canais públicos não requer uma *chave da API* e pode ser feita livremente.
+
 1. Conecte a placa NodeMCU à porta USB de seu computador.
 2. Abra o Thonny.
 3. Observe se o console do interpretador Python é iniciado corretamente. Caso contrário: verifique em *Executar | Configurar interpretador* se o interpretador foi selecionado corretamente (MicroPython ESP8266) e se a porta de conexão está correta. Acione o botão *Stop* ou **CTRL+F2** para reiniciar a conexão.
@@ -176,6 +178,7 @@ estacao.active(False)
 6. Salve como "15_thingspeak_read.py".
 7. Para executar acione o botão *Executar* ou **F5**.
 8. Devem ser exibidas no console do Thonny as informações obtidas do ThingSpeak em formato JSON (10 últimas leituras do canal), incluindo o cálculo de sua média.
+![ThingSpeak Channel](https://github.com/pjandl/ocf/blob/main/T-2023-2/figuras/15_thingspeak_data.png)
 
 ---
 
