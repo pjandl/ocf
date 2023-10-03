@@ -12,6 +12,10 @@
 >- Arquivo: [bmp280.py](https://github.com/pjandl/ocf/blob/main/Bibliotecas/bmp280.py)
 >- Repo: https://gist.github.com/futureshocked/287606dd7556a82c90f86473a6cf2ed0
 
+- Display matriz de LED 8x8 associável
+>- Arquivo: [hcsr04_0.21.py](https://github.com/pjandl/ocf/blob/main/Bibliotecas/max7219.py)
+>- Repo: https://github.com/mcauser/micropython-max7219
+
 - Sensor ultrassônico HC-SR04
 >- Arquivo: [hcsr04_0.21.py](https://github.com/pjandl/ocf/blob/main/Bibliotecas/hcsr04_0.21.py)
 >- Repo: https://github.com/rsc1975/micropython-hcsr04
