@@ -35,6 +35,8 @@
 10. [Conversão Analógica-Digital, termistor e LED](../T-2023-2/10_ADC_ntc.md)
 > Montagem para uso de conversão analógico-digital para captura de temperatura (informação analógica) com termistor e sinalização com LED. Faz uso de entrada analógica e de saída digital.
 
+---
+
 ## Nível Intermediário
 
 11. [Barramento I2C (Inter-Integrated Circuit)](../T-2023-2/11_i2c.md)
@@ -45,3 +47,11 @@
 
 13. [Display OLED e Sensor Barométrico I2C](../T-2023-2/13_oled_bmp180_i2c.md)
 > Montagem para uso de barramento I2C para conexão do NodeMCU (placa ESP8266) com um display OLED e um sensor barométrico.
+
+14. [Wi-Fi](../T-2023-2/14_wifi.md)
+> Conexão do NodeMCU (placa ESP8266) com Wi-Fi e acesso ao WorldTime Service na internet para obtenção de data e horas atual.
+
+---
+
+Oficina de Computação Física | Prof. Peter Jandl Jr
+<br/>2023-2
