@@ -178,6 +178,7 @@ estacao.active(False)
 6. Salve como "15_thingspeak_read.py".
 7. Para executar acione o botão *Executar* ou **F5**.
 8. Devem ser exibidas no console do Thonny as informações obtidas do ThingSpeak em formato JSON (10 últimas leituras do canal), incluindo o cálculo de sua média.
+
 ![ThingSpeak Channel](https://github.com/pjandl/ocf/blob/main/T-2023-2/figuras/15_thingspeak_data.png)
 
 ---
