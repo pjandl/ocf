@@ -51,6 +51,9 @@
 14. [Wi-Fi](../T-2023-2/14_wifi.md)
 > Conexão do NodeMCU (placa ESP8266) com Wi-Fi e acesso ao WorldTime Service na internet para obtenção de data e horas atual.
 
+15. [IoT com ThingSpeak](../T-2023-2/15_thingspeak.md)
+> Conexão do NodeMCU (placa ESP8266) com Wi-Fi e acesso à plataforma de IoT ThingSpeak para registro, visualização e compartilhamento de dados.
+
 ---
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
