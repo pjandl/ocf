@@ -54,6 +54,9 @@
 15. [IoT com ThingSpeak](../T-2023-2/15_thingspeak.md)
 > Conexão do NodeMCU (placa ESP8266) com Wi-Fi e acesso à plataforma de IoT ThingSpeak para registro, visualização e compartilhamento de dados.
 
+16. [ThingSpeak, Display OLED e Sensor Barométrico](../T-2023-2/15_thingspeak.md)
+> Montagem para uso de barramento I2C para conexão de um display OLED e de um sensor barométrico ao NodeMCU (placa ESP8266), com envio dos dados coletados à plataforma de IoT ThingSpeak via Wi-Fi.
+
 ---
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
