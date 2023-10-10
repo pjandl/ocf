@@ -2,7 +2,8 @@
 
 - Sensor de luminosidade BH1750
 >- Arquivo: [bh1750.py](https://github.com/pjandl/ocf/blob/main/Bibliotecas/bh1750.py)
->- Repo: https://github.com/catdog2/mpy_bh1750fvi_esp8266
+>- Repo: https://gist.github.com/oskar456/95c66d564c58361ecf9 
+<br/>https://github.com/catdog2/mpy_bh1750fvi_esp8266
 
 - Sensor barométrico e de temperatura BMP180
 >- Arquivo: [bmp180.py](https://github.com/pjandl/ocf/blob/main/Bibliotecas/bmp180.py)
