@@ -9,7 +9,7 @@ Configuração e uso de uma entrada digital, conectada à um botão; e uma saíd
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 * 01 Led (qualquer cor)
 * 01 Chave táctil
 * 01 Resistor 220 ohms (vermelho-vermelho-marron) ou 330 ohms (laranja-laranja-marrom)

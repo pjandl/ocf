@@ -13,7 +13,7 @@ Emprego de uma entrada analógica, incluindo a conversor analógico-digital corr
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 * 01 Fotoresistor LDR (GL5528)
 * 01 Resistor 10K ohms (marron-preto-laranja)
 * 03 Leds (vermelho, branco, verde)

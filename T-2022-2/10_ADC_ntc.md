@@ -9,7 +9,7 @@ Esta experiência mostra o uso do ADC disponível no ESP8266, exibindo a tempera
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 * 01 Termistor NTC 10K
 * 01 Resistor 10K ohms (marron-preto-laranja)
 * 01 Led vermelho
