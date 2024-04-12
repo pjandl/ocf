@@ -1,8 +1,10 @@
-# OFC::16 ThingSpeak, Display OLED e Sensor Barométrico
+# OFC::17 ThingSpeak, Display OLED e Sensores OneWire
 
-Nesta montagem vamos combinar as capacidades do NodeMCU ESP8266 de se conectar a redes **Wi-Fi** (*Wireless Fidelity*) para enviar dados ao serviço da internet **ThingSpeak** e de coletar dados por meio de um sensor barométrico BMP180.
+Nesta montagem vamos combinar as capacidades do NodeMCU ESP8266 de se conectar a redes **Wi-Fi** (*Wireless Fidelity*) para enviar dados ao serviço da internet **ThingSpeak** e de coletar dados por meio de múltiplos sensores de temperatura DS18B20 interligados pelo barramento **OneWire**.
 
-Utilizaremos como ponto de partida a montagem realizada na experiência [13_oled_bmp180_i2c.md](../13_oled_bmp180_i2c.md), na qual conectamos um sensor barométrico BMP180, capaz de coletar a temperatura, pressão atmosférica e altitude local; e um display OLED 128x64; ao NodeMCU ESP8266 por meio de uma barramento **I2C** (*Inter-Integrated Circuit*).
+Como visto nas montagens anteriores, utilizaremos um display OLED 128x32 conectado ao NodeMCU ESP8266 por meio de uma barramento **I2C** (*Inter-Integrated Circuit*). A cada ciclo de operação, este display exibirá três informações sobre as temperaturas coletadas: valor máximo, valor mínimo e valor médio.
+
+A coleta de temperatura utilizará um sensor  
 
 Esta montagem e seu *script* serão combinados com a experiência [15_thingspeak.md](../15_thingspeak.md), de maneira que a placa, o sensor e o display passam a constituir uma pequena estação de coleta de dados metereológicos, que serão exibidos no display e enviados a um canal do ThingSpeak (https://thingspeak.com), plataforma de IoT (Internet das Coisas) que permite a configuração de um *dashboard* no qual serão exibidos e disponibilizados os dados coletados publicamente.
 
@@ -14,8 +16,8 @@ Construir uma miniestação metereológica, capaz de coletar dados de temperatur
 
 * Placa NodeMCU ESP8266 (30 pinos)
 * Cabo USB-A -- micro-USB
-* 01 Display OLED 128x64 I2C
-* 01 Módulo sensor BMP180
+* 01 Display OLED 128x32 (ou 128x64) I2C
+* 02 (ou mais) sensores DS18B20
 * 01 Protoboard (170 pontos ou mais)
 * Jumpers
 

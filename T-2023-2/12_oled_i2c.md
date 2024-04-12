@@ -15,7 +15,7 @@ Uso do barramento I2C para conexão simultânea com múltiplos dispositivos por 
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 * 01 Display OLED 128x64 I2C
 * 01 Protoboard (170 pontos ou mais)
 * Jumpers

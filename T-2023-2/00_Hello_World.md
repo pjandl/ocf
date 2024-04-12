@@ -9,7 +9,7 @@ Verificar a conexão adequada entre o computador e placa NodeMCU, para permitir 
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 
 ## Roteiro
 

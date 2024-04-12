@@ -14,7 +14,7 @@ Uso das capacidades de comunicação Wi-Fi do NodeMCU ESP8266 para conexão com 
 ## Lista de Materiais
 
 * Placa NodeMCU ESP8266 (30 pinos)
-* Cabo USB-A -- USB-C
+* Cabo USB-A -- micro-USB
 
 ## Roteiro
 

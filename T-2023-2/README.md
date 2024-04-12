@@ -2,7 +2,7 @@
 
 ## Nível Básico
 
-0. [Instalando MicroPython na Placa](../T-2023-2/Instalando-MicroPython-na-Placa.md)
+0. [Instalando MicroPython na Placa](../NodeMCU/Instalando-MicroPython-na-Placa.md)
 > Procedimento para instalar o interpretador MicroPython nas placas ESP8266 ou ESP32.
 
 1. [Olá](../T-2023-2/01_Ola.md)
@@ -54,9 +54,11 @@
 15. [IoT com ThingSpeak](../T-2023-2/15_thingspeak.md)
 > Conexão do NodeMCU (placa ESP8266) com Wi-Fi e acesso à plataforma de IoT ThingSpeak para registro, visualização e compartilhamento de dados.
 
-16. [ThingSpeak, Display OLED e Sensor Barométrico](../T-2023-2/15_thingspeak.md)
+16. [ThingSpeak, Display OLED e Sensor Barométrico](../T-2023-2/16_ts_oled_bmp180_i2c.md)
 > Montagem para uso de barramento I2C para conexão de um display OLED e de um sensor barométrico ao NodeMCU (placa ESP8266), com envio dos dados coletados à plataforma de IoT ThingSpeak via Wi-Fi.
 
+17. [ThingSpeak, Display OLED e Sensores OneWire](../T-2023-2/17_ts_oled_i2c_ds18b20.md)
+> Montagem para uso de barramento I2C para conexão de um display OLED e de barramento OneWire para conexão e coleta de temperatura de múltiplos sensores (DS18B20), com envio dos dados coletados à plataforma de IoT ThingSpeak via Wi-Fi.
 ---
 
 Oficina de Computação Física | Prof. Peter Jandl Jr
