@@ -31,10 +31,11 @@ Vamos trabalhar!
 
 Os materiais desta oficina estão distribuídos em diretórios diferentes para facilitar seu acesso e consulta. Segue uma lista, com os itens mais importantes no seu início.
 
-- [T-2023-2](https://github.com/pjandl/ocf/tree/main/T-2023-2) :: materiais da temporada *2023-2* (atual) da oficina, onde se localizam os roteiros dos experimentos/montagens e os exemplos correspondentes.
+- [T-2024-1](https://github.com/pjandl/ocf/tree/main/T-2024-1) :: materiais da temporada *2024-1* (atual) da oficina, onde se localizam os roteiros dos experimentos/montagens e os programas Python correspondentes.
 - [Bibliotecas](https://github.com/pjandl/ocf/tree/main/Bibliotecas) :: bibliotecas/módulos utilizados nos roteiros da oficina.
 - [NodeMCU](https://github.com/pjandl/ocf/tree/main/NodeMCU) :: contém informações específicas sobre as placas de desenvolvimento NodeMCU baseadas no ESP8266 e ESP32.
 - [Componentes](https://github.com/pjandl/ocf/tree/main/Componentes) :: contém informações sobre componentes diversos, como resistores, leds, etc.
-- [T-2023-1](https://github.com/pjandl/ocf/tree/main/T-2023-1) :: materiais da temporada *2023-1* da oficina, onde se localizam os roteiros dos experimentos/montagens e os exemplos correspondentes.
+- [T-2023-2](https://github.com/pjandl/ocf/tree/main/T-2023-2) :: materiais da temporada *2023-2* da oficina, que incluem os roteiros dos experimentos/montagens e os programas correspondentes.
+- [T-2023-1](https://github.com/pjandl/ocf/tree/main/T-2023-1) :: materiais da temporada *2023-1* da oficina, onde se localizam os roteiros dos experimentos/montagens e os exemplos Python correspondentes.
 - [T-2022-2](https://github.com/pjandl/ocf/tree/main/T-2022-2) :: materiais da temporada 2022-2 da oficina, ou seja, os roteiros dos experimentos/montagens e os exemplos de programação correspondentes.
 - [Apresentações](https://github.com/pjandl/ocf/tree/main/Apresentacoes) :: apresentações da Oficina de Computação Física, contendo uma breve introdução ao tema e visão geral das atividades da oficina.
